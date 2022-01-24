@@ -57,7 +57,6 @@ func main() {
 		os.Exit(1)
 	}
 	fmt.Println("Downloading: ", mediafolders)
-
 }
 func isInputFromPipe() bool {
 	fileInfo, _ := os.Stdin.Stat()
